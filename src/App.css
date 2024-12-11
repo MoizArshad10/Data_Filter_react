@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  background-color: rgb(5, 55, 112);
+  color: whitesmoke;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+.product{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  position: relative;
+  margin-top: 88px;
+}
+
+.card{
+  width: 800px ;
+  margin-top: 32px;
+  display: flex;
+  background-color: lightgrey;
+  border-radius: 10px;
+  margin: 20px;
+  color: black;
+}
+
+.card .text{
+  margin-left: 20px;
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.card img{
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+}
+
+.category{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.category label{
+  font-size: 22px;
+  font-weight: bold;
+
+}
+.category select{
+  width: 220px;
+  border: 2px solid black;
+  margin-left: 11px;
+  padding: 6px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+
+button{
+  background-color: rgb(14, 56, 95);
+color: white;
+padding: 12px 20px;
+font-weight: bold;
+font-size: 14px;
+border-radius: 10px;
+}
+
